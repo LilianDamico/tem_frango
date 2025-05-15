@@ -1,0 +1,46 @@
+.head-container {
+  display: flex;
+  box-sizing: border-box;
+  margin: 0;
+  flex-direction: row;
+  font-family: 'Lobster';
+  align-items: center;
+  justify-content: space-between;
+  background-color: #8B0000;
+  padding: 10px;
+  border-bottom: 2px solid yellow;
+}
+
+.logo-container img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 2px solid yellow;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+}
+.title-container h1 {
+  font-size: 34px;
+  color: yellow;
+  margin-left: 10px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.nav-links a {
+  color: yellow;
+  text-decoration: none;
+}
+
+.nav-links a.active {
+  text-decoration: underline;
+}
